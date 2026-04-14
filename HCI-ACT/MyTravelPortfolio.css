@@ -1,0 +1,174 @@
+/* body */
+body{
+    margin: 0px;
+    background-color: lightcyan;
+}
+
+/* navbar code*/
+h1{
+    font-family: helvetica;
+    padding-left: 60px;
+    font-size: 35px;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #8b5b08 0%, #969f11 100%);
+    padding: 1px 20px 1px 20px; 
+    
+    display: flex;
+    justify-content: space-between;
+
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul{ 
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+
+   list-style-type: none;
+   margin-top: 30px;
+   margin-right: 100px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar a{
+    color: white;
+    font-family: helvetica;
+}
+
+.navbar a:hover{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.btn{
+    display: flex;
+    padding: 25px;
+    margin-right: 40px;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn i{
+    font-size: 33px;
+    padding-right: 10px;
+}
+
+.button{
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    width: 80px;
+    height: 40px;
+}
+
+.button:hover{
+    background-color: blue;
+    transition: 0.5s ease;
+}
+/* section code */
+section{
+    padding: 40px;
+    margin: auto;
+    max-width: 1500px;
+}
+
+
+/* About Me code*/
+.aboutme{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.aboutme p{
+    font-family: helvetica;
+    font-size: x-large;
+    text-align: justify;
+}
+
+#img1{
+    border-radius: 20%;
+}
+
+/* Top Destination */
+#Destination p{
+    font-size: x-large;
+    font-family: helvetica;
+}
+
+/* Travel Gallery */
+.galleryimg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 0px 200px 0px 200px;
+    gap: 20px;
+}
+
+
+.galleryimg .one{
+    border-radius: 10%;
+}
+.galleryimg .two{
+    border-radius: 10%;
+
+}
+.galleryimg .three{
+    border-radius: 10%;
+
+}
+.galleryimg .four{
+    border-radius: 10%;
+}
+
+.galleryimg figcaption{
+    font-family: helvetica;
+    font-size: x-large;
+}
+
+/* Contact code */
+.links a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    font-size: 18px;
+    color: black;
+    font-family: helvetica;
+}
+
+
+.links a i {
+    font-size: x-large;
+    margin-left: 63px;
+}
+
+.links a p{
+    color: blue;
+}
+
+/* Footer code*/
+.Footer{
+    background-image: linear-gradient(to right, #8b5b08 0%, #969f11 100%);
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+    font-size: x-large;
+    padding: 10px;
+}
+
+
+
+
